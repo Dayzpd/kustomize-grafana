@@ -11,3 +11,10 @@ helmCharts:
   repo: https://grafana.github.io/helm-charts
   version: v9.2.10
   valuesFile: values.yaml
+images:
+- name: docker.io/grafana/grafana
+  newName: pulp.local.zachary.day/docker-cache/grafana/grafana
+- name: docker.io/library/busybox
+  newName: pulp.local.zachary.day/docker-cache/library/busybox
+- name: docker.io/bats/bats
+  newName: pulp.local.zachary.day/docker-cache/bats/bats
