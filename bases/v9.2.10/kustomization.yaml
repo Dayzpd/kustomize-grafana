@@ -13,8 +13,8 @@ helmCharts:
   valuesFile: values.yaml
 images:
 - name: docker.io/grafana/grafana
-  newName: pulp.local.zachary.day/docker-cache/grafana/grafana
+  newName: harbor.local.zachary.day/docker-cache/grafana/grafana
 - name: docker.io/library/busybox
-  newName: pulp.local.zachary.day/docker-cache/library/busybox
+  newName: harbor.local.zachary.day/docker-cache/library/busybox
 - name: docker.io/bats/bats
-  newName: pulp.local.zachary.day/docker-cache/bats/bats
+  newName: harbor.local.zachary.day/docker-cache/bats/bats
